@@ -2,7 +2,7 @@
   "name": "sugarcube-mode",
   "version": "1.0.0",
   "description": "SugarCube 2 mode for codemirror",
-  "main": "index.js",
+  "main": "sugarcube.js",
   "author": "Konstantin Kitmanov <doctor.hogart@gmail.com>",
   "license": "MIT",
   "eslintConfig": {
