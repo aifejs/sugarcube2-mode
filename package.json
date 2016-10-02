@@ -1,0 +1,120 @@
+{
+  "name": "sugarcube-mode",
+  "version": "1.0.0",
+  "description": "SugarCube 2 mode for codemirror",
+  "main": "index.js",
+  "author": "Konstantin Kitmanov <doctor.hogart@gmail.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true,
+      "es6": true,
+      "browser": true
+    },
+    "plugins": [
+      "html"
+    ],
+    "extends": "eslint-config-yandex",
+    "rules": {
+      "eol-last": [
+        0
+      ],
+      "comma-dangle": [
+        "error",
+        "always"
+      ],
+      "arrow-body-style": [
+        "error",
+        "as-needed"
+      ],
+      "arrow-parens": [
+        "error",
+        "always"
+      ],
+      "constructor-super": [
+        "error"
+      ],
+      "generator-star-spacing": [
+        "error",
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "no-class-assign": [
+        "error"
+      ],
+      "no-confusing-arrow": [
+        "error"
+      ],
+      "no-const-assign": [
+        "error"
+      ],
+      "no-dupe-class-members": [
+        "error"
+      ],
+      "no-duplicate-imports": [
+        "error"
+      ],
+      "no-new-symbol": [
+        "error"
+      ],
+      "no-this-before-super": [
+        "error"
+      ],
+      "no-useless-constructor": [
+        "error"
+      ],
+      "no-var": [
+        "error"
+      ],
+      "object-shorthand": [
+        "error",
+        "always"
+      ],
+      "prefer-arrow-callback": [
+        "error",
+        {
+          "allowNamedFunctions": true
+        }
+      ],
+      "prefer-const": [
+        "error",
+        {
+          "destructuring": "all"
+        }
+      ],
+      "prefer-reflect": [
+        "off"
+      ],
+      "prefer-rest-params": [
+        "warn"
+      ],
+      "prefer-spread": [
+        "error"
+      ],
+      "prefer-template": [
+        "error"
+      ],
+      "require-yield": [
+        "error"
+      ],
+      "template-curly-spacing": [
+        "error",
+        "never"
+      ],
+      "yield-star-spacing": [
+        "error",
+        "after"
+      ]
+    }
+  },
+  "dependencies": {
+    "codemirror": "^5.19.0"
+  }
+}
