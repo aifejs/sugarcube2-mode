@@ -1,4 +1,4 @@
-import CodeMirror from 'codemirror';
+const CodeMirror = require('codemirror');
 
 const keywords = {
     'set': true,
